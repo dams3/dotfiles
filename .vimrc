@@ -2,6 +2,7 @@ set number relativenumber
 syntax on
 set showcmd
 
+set ignorecase
 set incsearch
 set hlsearch
 
