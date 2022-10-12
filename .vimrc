@@ -1,5 +1,6 @@
 set number relativenumber
 syntax on
+set showcmd
 
 set incsearch
 set hlsearch
