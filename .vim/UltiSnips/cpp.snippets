@@ -1,0 +1,59 @@
+snippet for "for"
+for (int ${1:i} = 0; $1 < ${2:n}; $1++) {
+	$0
+}
+endsnippet
+
+snippet while "while"
+while ($1) {
+	$0
+}
+endsnippet
+
+snippet if "if"
+if ($1) {
+	$0
+}
+endsnippet
+
+snippet sif "if"
+if ($1)
+	$0
+endsnippet
+
+snippet eif "if else"
+if ($1) {
+	$2
+}
+else {
+	$0
+}
+endsnippet
+
+snippet { "block"
+{
+	$0
+}
+endsnippet
+
+snippet beg "tempate"
+#include <bits/stdc++.h>
+
+using namespace std;
+
+mt19937 rnd(chrono::steady_clock::now().time_since_epoch().count());
+
+typedef long long ll;
+typedef long double ld;
+
+int32_t main() {
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+
+	int TET; cin >> TET;
+	$0
+	for (int i = 0; i < TET; i++) {
+	}
+}
+
+endsnippet
